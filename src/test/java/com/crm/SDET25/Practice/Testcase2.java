@@ -36,7 +36,7 @@ public class Testcase2 {
 		Thread.sleep(10000);
 				
 		driver.findElement(By.cssSelector("img[src='themes/softed/images/user.PNG']")).click();
-		
+		Thread.sleep(1000);
 		driver.findElement(By.linkText("Sign Out")).click();		
 		
 	}
